@@ -76,7 +76,7 @@ def run_functions_parallel(input_text):
 
 # Streamlit UI
 st.title("GPT4o vs claude3.5sonnet vs gemini-pro")
-# サイドバーにフォームを作成
+# サイドバーにフォームを作成K
 with st.sidebar:
     GOOGLE_API_KEY = st.text_input("GOOGLE_API_KEY")
     ANTHROPIC_API_KEY = st.text_input("ANTHROPIC_API_KEY")
